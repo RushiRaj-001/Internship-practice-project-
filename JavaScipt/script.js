@@ -5,10 +5,10 @@ console.log(x); // Output: undefined
 var x = 5;
 console.log(x); // Output: 5
 
-sayHello(); // Output: "Hello!"
+sayHello(); // Output: "Hello World"
 
 function sayHello() {
-    console.log("Hello!");
+    console.log("Hello World");
 }
 
 // sayHi(); // Error: sayHi is not a function
