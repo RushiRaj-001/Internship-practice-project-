@@ -1,0 +1,87 @@
+<!-- 13/12/2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        background-color: aqua;
+        width: 500px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box {
+        position: relative;
+        background-color: black;
+        height: 200px;
+        width: 200px;
+        /* animation-name: box; */
+        /* animation-duration: 1s;
+        animation-timing-function: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        /* animation-fill-mode:forwards;
+        animation-direction:alternate;  */
+        transition-duration: 3s;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    /* @keyframes box
+ {
+       /* from{
+        left: 300px;
+       } */
+    .box:hover {
+        background-color: red;
+        transform: rotate(180deg);
+        border-radius: 50%;
+        transform: scale(y, -10px);
+
+    }
+
+    .list {
+        list-style: none;
+        margin: 100px;
+        gap: 25px;
+        display: flex;
+    }
+
+    .list li {
+        padding: 10px 16px;
+
+    }
+
+    .list li:hover {
+        cursor: pointer;
+        transform: rotateX(180deg);
+        background-color: black;
+        color: aliceblue;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+        </div>
+
+    </div>
+    <div class="list">
+        <li>HELLO</li>
+        <li>HELLO</li>
+        <li>HELLO</li>
+        <li>HELLO</li>
+    </div>
+</body>
+
+</html>

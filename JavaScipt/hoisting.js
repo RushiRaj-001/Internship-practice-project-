@@ -1,4 +1,5 @@
-// 13/12/2003 [ 'concept : Hoisting '] 
+// 13/12/2003 
+// 1.Hoisting :  
 //we can use a variable or a function before it has been declared in your code. 
 
 console.log(x); // Output: undefined
@@ -16,4 +17,10 @@ function sayHello() {
 // var sayHi = function() {
 //   console.log("Hi!");
 // };
+
+// ----------------------------***--------------------------------------------------
+
+
+
+
 
